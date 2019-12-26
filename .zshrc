@@ -114,6 +114,9 @@ export GOPATH=$HOME/Workspace/goprojects
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
+# torrench path
+export PATH="$HOME/.torrench/bin:$PATH"
+
 # Aliases:
 # For a full list of active aliases, run `alias`.
 # --------------------------------------------------
@@ -391,3 +394,6 @@ export LC_ALL=en_US.UTF-8
 
 # source ~/.oh-my-zsh/plugins/antigen.zsh
 # antigen init .antigenrc
+
+# Set Tmuxinator alias
+alias mux="tmuxinator start"
