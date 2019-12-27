@@ -337,6 +337,7 @@ vifmx() {
 }
 
 bindkey -s '^o' 'vifmx\n'
+bindkey -s '^z' 'cat .tmux/.tmux_passwd_buffer\n'
 
 # Edit line in vim
 autoload edit-command-line; zle -N edit-command-line
