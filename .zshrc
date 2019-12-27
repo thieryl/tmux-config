@@ -5,6 +5,7 @@
 #export PATH="$HOME/.local/bin:$PATH"
 #eval "$(rbenv init -)"
 unsetopt BG_NICE
+export TERM="xterm-256color"
 
 alias tmux="tmux -2 -u"
 if which tmux 2>&1 >/dev/null; then
@@ -29,7 +30,7 @@ ZSH_THEME="fino"
 # sensitive completion must be off. _ and - will be interchangeable.
 # HYPHEN_INSENSITIVE="true"
 
-# Uncomment the following line to disable bi-weekly auto-update checks.
+# Uncomment the following li/tmuxne to disable bi-weekly auto-update checks.
 # DISABLE_AUTO_UPDATE="true"
 
 # Uncomment the following line to change how often to auto-update (in days).
