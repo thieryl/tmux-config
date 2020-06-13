@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-# test commit
 # Author : Thiery Louison
 set -e
 set -u
